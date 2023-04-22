@@ -1,0 +1,11 @@
+[package]
+name = "cargo2bibtex"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+crates_io_api = "0.8.1"
+toml = { version = "0.7.3" }
+chrono = "0.4.24"
