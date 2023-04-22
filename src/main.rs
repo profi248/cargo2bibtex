@@ -28,7 +28,7 @@ fn main() {
     }
 
     let client = SyncClient::new(
-        "cargo2bibtex (testing)",
+        "https://github.com/profi248/cargo2bibtex",
         std::time::Duration::from_millis(1000),
    ).unwrap();
 
